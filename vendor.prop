@@ -236,9 +236,6 @@ ro.surface_flinger.set_touch_timer_ms=2000
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.vendor.display.touch.idle.enable=true
 
-# Qualcomm System Daemon
-persist.vendor.qcomsysd.enabled=1
-
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
 
