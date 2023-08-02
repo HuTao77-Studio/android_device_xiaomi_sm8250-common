@@ -115,8 +115,10 @@ class XiaomiKonaUdfpsHandler : public UdfpsHandler {
 
     void onAcquired(int32_t result, int32_t vendorCode) {
         if (result == FINGERPRINT_ACQUIRED_GOOD) {
-            int arg[2] = {TOUCH_UDFPS_ENABLE, UDFPS_STATUS_OFF};
-            ioctl(touch_fd_.get(), TOUCH_IOC_SETMODE, &arg);
+            if (!enrolling) {
+                int arg[2] = {TOUCH_UDFPS_ENABLE, UDFPS_STATUS_OFF};
+                ioctl(touch_fd_.get(), TOUCH_IOC_SETMODE, &arg);
+            }
         } else if (vendorCode == 21 || vendorCode == 23) {
             /*
              * vendorCode = 21 waiting for fingerprint authentication
@@ -128,24 +130,31 @@ class XiaomiKonaUdfpsHandler : public UdfpsHandler {
     }
 
     void cancel() {
+        enrolling = false;
         int arg[2] = {TOUCH_UDFPS_ENABLE, UDFPS_STATUS_OFF};
         ioctl(touch_fd_.get(), TOUCH_IOC_SETMODE, &arg);
     }
 
     void preEnroll() {
         LOG(DEBUG) << __func__;
+        enrolling = true;
     }
 
     void enroll() {
         LOG(DEBUG) << __func__;
+        enrolling = true;
     }
 
     void postEnroll() {
         LOG(DEBUG) << __func__;
+        enrolling = false;
+        int arg[2] = {TOUCH_UDFPS_ENABLE, UDFPS_STATUS_OFF};
+        ioctl(touch_fd_.get(), TOUCH_IOC_SETMODE, &arg);
     }
   private:
     fingerprint_device_t *mDevice;
     android::base::unique_fd touch_fd_;
+    bool enrolling = false;
 };
 
 static UdfpsHandler* create() {
