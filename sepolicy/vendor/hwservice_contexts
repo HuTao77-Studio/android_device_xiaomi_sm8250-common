@@ -13,6 +13,9 @@ com.fingerprints.extension::IFingerprintSensorTest                              
 vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemon                             u:object_r:hal_fingerprint_hwservice:s0
 vendor.xiaomi.hardware.fx.tunnel::IMiFxTunnel                                                       u:object_r:hal_fingerprint_hwservice:s0
 
+# Google WirelessCharger
+vendor.google.wireless_charger::IWirelessCharger                                                    u:object_r:hal_wlc_hwservice:s0
+
 # Mlipay Payment
 vendor.xiaomi.hardware.mfidoca::IFidoService                                                        u:object_r:hal_mfidoca_hwservice:s0
 vendor.xiaomi.hardware.mlipay::IMlipayService                                                       u:object_r:hal_mlipay_hwservice:s0
