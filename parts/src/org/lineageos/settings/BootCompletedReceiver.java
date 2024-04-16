@@ -25,6 +25,7 @@ import android.util.Log;
 
 import org.lineageos.settings.popupcamera.PopupCameraUtils;
 import org.lineageos.settings.dirac.DiracUtils;
+import org.lineageos.settings.display.ColorService;
 import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.utils.FileUtils;
 import android.content.SharedPreferences;
@@ -58,5 +59,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         FileUtils.writeLine(DC_DIMMING_NODE, dcDimmingEnabled ? "0x40000" : "0x50000");
         boolean hbmEnabled = sharedPrefs.getBoolean(HBM_ENABLE_KEY, false);
         FileUtils.writeLine(HBM_NODE, hbmEnabled ? "0x10000" : "0xF0000");
+        ColorService.startService(context);
     }
 }
