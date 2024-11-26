@@ -1,0 +1,4 @@
+allow rild {
+ default_prop
+ vendor_ssr_prop
+}:file { getattr map open read };

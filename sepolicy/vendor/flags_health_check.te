@@ -1,0 +1,21 @@
+allow flags_health_check {
+ aac_drc_prop
+ ab_update_gki_prop
+ adaptive_haptics_prop
+ adbd_config_prop
+ adbd_prop
+ apexd_config_prop
+ apexd_prop
+ apk_verity_prop
+ audio_config_prop
+ bluetooth_a2dp_offload_prop
+ bluetooth_audio_hal_prop
+ bluetooth_prop
+ bootanim_system_prop
+ bootloader_boot_reason_prop
+ boottime_prop
+ build_bootimage_prop
+ build_config_prop
+ cpu_variant_prop
+ ctl_apex_load_prop
+}:file { getattr map open };
