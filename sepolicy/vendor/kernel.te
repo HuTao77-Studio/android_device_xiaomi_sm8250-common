@@ -1,0 +1,4 @@
+allow kernel kernel:capability kill;
+allow kernel kernel:qipcrtr_socket create;
+
+dontaudit kernel kernel:capability dac_read_search;

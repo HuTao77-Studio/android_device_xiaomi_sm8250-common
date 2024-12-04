@@ -2,6 +2,8 @@ allow init same_process_hal_file:file execute;
 
 allow init adsprpcd_file:file mounton;
 
+allow init vendor_data_file:file rw_file_perms;
+
 # Battery
 allow init vendor_sysfs_usb_supply:file setattr;
 allow init vendor_sysfs_battery_supply:file setattr;
