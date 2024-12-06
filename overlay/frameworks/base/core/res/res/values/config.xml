@@ -24,6 +24,13 @@
     <!-- The restoring is handled by modem if it is true-->
     <bool translatable="false" name="skip_restoring_network_selection">true</bool>
 
+    <!-- SNTP client config: NTP servers to use to obtain an accurate time.
+         Items must be in the form: "ntp://<host>[:port]"
+         This is not a registered IANA URI scheme. -->
+    <string-array translatable="false" name="config_ntpServers">
+        <item>ntp://pool.ntp.org</item>
+    </string-array>
+
      <!-- This string array should be overridden by the device to present a list of network
          attributes.  This is used by the connectivity manager to decide which networks can coexist
          based on the hardware -->
