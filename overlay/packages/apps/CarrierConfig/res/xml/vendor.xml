@@ -53,7 +53,7 @@
     </carrier_config>
     <carrier_config mcc="001" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
         <boolean name="support_adhoc_conference_calls_bool" value="true" />
         <boolean name="support_add_conference_participants_bool" value="true" />
@@ -77,12 +77,12 @@
     </carrier_config>
     <carrier_config mcc="204" mnc="04">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config iccid="898603,898611,8985231,8985302,8985307" mcc="204" mnc="04">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
         <boolean name="ascii_7_bit_support_for_long_message" value="true" />
@@ -223,7 +223,7 @@
     </carrier_config>
     <carrier_config mcc="222" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -284,12 +284,12 @@
     </carrier_config>
     <carrier_config mcc="230" mnc="03">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="230" mnc="99">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="231" mnc="01">
@@ -496,7 +496,7 @@
     <carrier_config mcc="248" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
@@ -517,7 +517,7 @@
     </carrier_config>
     <carrier_config mcc="260" mnc="03">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
@@ -528,7 +528,7 @@
     </carrier_config>
     <carrier_config mcc="260" mnc="05">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
@@ -558,14 +558,14 @@
     </carrier_config>
     <carrier_config mcc="262" mnc="03">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
         <boolean name="hide_lte_plus_data_icon_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="262" mnc="05">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="262" mnc="06">
@@ -579,14 +579,14 @@
     </carrier_config>
     <carrier_config mcc="262" mnc="07">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
         <boolean name="hide_lte_plus_data_icon_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="262" mnc="08">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="262" mnc="09">
@@ -596,7 +596,7 @@
     </carrier_config>
     <carrier_config mcc="262" mnc="11">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
         <boolean name="hide_lte_plus_data_icon_bool" value="false" />
@@ -620,7 +620,7 @@
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="840">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -651,7 +651,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="854">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -682,7 +682,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="855">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -713,7 +713,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="856">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -744,7 +744,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="857">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -775,7 +775,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="858">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -806,7 +806,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="859">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -837,7 +837,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="860">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -868,7 +868,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="861">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -899,7 +899,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="862">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -930,7 +930,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="863">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -961,7 +961,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="864">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -992,7 +992,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="865">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -1023,7 +1023,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="866">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -1054,7 +1054,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="867">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -1085,7 +1085,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="868">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -1116,7 +1116,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="869">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -1147,7 +1147,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="870">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -1178,7 +1178,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="871">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -1209,7 +1209,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="872">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -1240,7 +1240,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="873">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -1271,7 +1271,7 @@
         <boolean name="carrier_supports_multianchor_conference" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="874">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="editable_wfc_mode_bool" value="false" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
@@ -1311,7 +1311,7 @@
     </carrier_config>
     <carrier_config mcc="440" mnc="10">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="440" mnc="11">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -1321,7 +1321,7 @@
     </carrier_config>
     <carrier_config mcc="440" mnc="50">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_allow_deflect_ims_call_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="440" mnc="51">
@@ -1341,14 +1341,14 @@
         <boolean name="carrier_allow_deflect_ims_call_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="450" mnc="02">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="allow_video_call_in_low_battery" value="false" />
         <boolean name="config_carrier_cs_retry_available" value="true" />
         <boolean name="carrier_allow_turnoff_ims_bool" value="false" />
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="450" mnc="03">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="allow_video_call_in_low_battery" value="false" />
         <boolean name="config_carrier_cs_retry_available" value="true" />
         <boolean name="support_add_conference_participants_bool" value="true" />
@@ -1356,7 +1356,7 @@
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="450" mnc="05">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="allow_video_call_in_low_battery" value="false" />
         <boolean name="config_carrier_cs_retry_available" value="true" />
         <boolean name="support_add_conference_participants_bool" value="true" />
@@ -1364,7 +1364,7 @@
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="450" mnc="06">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="allow_video_call_in_low_battery" value="false" />
         <boolean name="support_adhoc_conference_calls_bool" value="true" />
         <boolean name="support_add_conference_participants_bool" value="true" />
@@ -1372,7 +1372,7 @@
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="450" mnc="08">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="allow_video_call_in_low_battery" value="false" />
         <boolean name="config_carrier_cs_retry_available" value="true" />
         <boolean name="carrier_allow_turnoff_ims_bool" value="false" />
@@ -1380,29 +1380,29 @@
     </carrier_config>
     <carrier_config mcc="454" mnc="00">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="454" mnc="03">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
     </carrier_config>
     <carrier_config mcc="454" mnc="04">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
     </carrier_config>
     <carrier_config mcc="454" mnc="31">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="455" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
         <string-array name="apn_hide_rule_strings_array" num="2">
@@ -1427,7 +1427,7 @@
     </carrier_config>
     <carrier_config mcc="455" mnc="07">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
         <string-array name="apn_hide_rule_strings_array" num="2">
@@ -1452,7 +1452,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="00">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
@@ -1526,7 +1526,7 @@
     <carrier_config mcc="460" mnc="01">
         <boolean name="notify_video_call_failed" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_spn_override_enabled" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
@@ -1570,7 +1570,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
@@ -1643,7 +1643,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="03">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
         <boolean name="ascii_7_bit_support_for_long_message" value="true" />
@@ -1696,7 +1696,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="04">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
@@ -1769,7 +1769,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="05">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
         <map name="apn_default_values_strings_array">
@@ -1800,7 +1800,7 @@
     <carrier_config mcc="460" mnc="06">
         <boolean name="notify_video_call_failed" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_spn_override_enabled" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
@@ -1837,7 +1837,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="07">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
@@ -1907,7 +1907,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="08">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
@@ -1977,7 +1977,7 @@
     <carrier_config mcc="460" mnc="09">
         <boolean name="notify_video_call_failed" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
         <map name="apn_default_values_strings_array">
@@ -2028,7 +2028,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="11">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
         <boolean name="ascii_7_bit_support_for_long_message" value="true" />
@@ -2081,7 +2081,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="12">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
         <boolean name="ascii_7_bit_support_for_long_message" value="true" />
@@ -2121,7 +2121,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="13">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
@@ -2194,7 +2194,7 @@
     </carrier_config>
     <carrier_config mcc="460" mnc="15">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="check_mobile_data_for_cf" value="true" />
@@ -2267,7 +2267,7 @@
         <boolean name="rtt_upgrade_supported_bool" value="true" />
         <boolean name="rtt_downgrade_supported_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="allow_emergency_video_calls_bool" value="true" />
         <boolean name="carrier_volte_tty_supported_bool" value="true" />
@@ -2282,7 +2282,7 @@
         <boolean name="rtt_upgrade_supported_bool" value="true" />
         <boolean name="rtt_downgrade_supported_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="allow_emergency_video_calls_bool" value="true" />
         <boolean name="carrier_volte_tty_supported_bool" value="true" />
@@ -2296,7 +2296,7 @@
         <boolean name="rtt_upgrade_supported_bool" value="true" />
         <boolean name="rtt_downgrade_supported_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="allow_emergency_video_calls_bool" value="true" />
         <boolean name="carrier_volte_tty_supported_bool" value="true" />
@@ -2307,7 +2307,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="030">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="true" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
@@ -2320,7 +2320,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="070">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="true" />
         <boolean name="transmit_static_image" value="true" />
@@ -2336,7 +2336,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="080">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="true" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
@@ -2347,7 +2347,7 @@
         <boolean name="rtt_upgrade_supported_bool" value="true" />
         <boolean name="rtt_downgrade_supported_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="allow_emergency_video_calls_bool" value="true" />
         <boolean name="carrier_volte_tty_supported_bool" value="true" />
@@ -2367,7 +2367,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="150">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="true" />
         <boolean name="transmit_static_image" value="true" />
@@ -2383,7 +2383,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="170">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="true" />
         <boolean name="transmit_static_image" value="true" />
@@ -2398,7 +2398,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="280">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="true" />
         <boolean name="transmit_static_image" value="true" />
@@ -2413,7 +2413,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="380">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="true" />
         <boolean name="transmit_static_image" value="true" />
@@ -2428,7 +2428,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="410">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="true" />
         <boolean name="transmit_static_image" value="true" />
@@ -2446,7 +2446,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="560">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="true" />
         <boolean name="transmit_static_image" value="true" />
@@ -2461,7 +2461,7 @@
     </carrier_config>
     <carrier_config mcc="310" mnc="680">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="true" />
         <boolean name="transmit_static_image" value="true" />
@@ -2508,7 +2508,7 @@
         <boolean name="ignore_rtt_mode_setting_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="160">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="editable_enhanced_4g_lte_bool" value="true" />
         <boolean name="force_home_network_bool" value="true" />
@@ -2516,7 +2516,7 @@
         <boolean name="ignore_rtt_mode_setting_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="200">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="editable_enhanced_4g_lte_bool" value="true" />
         <boolean name="force_home_network_bool" value="true" />
@@ -2524,7 +2524,7 @@
         <boolean name="ignore_rtt_mode_setting_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="210">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="rtt_auto_upgrade_bool" value="true" />
         <boolean name="rtt_upgrade_supported_bool" value="true" />
@@ -2539,7 +2539,7 @@
         <boolean name="ignore_rtt_mode_setting_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="220">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="editable_enhanced_4g_lte_bool" value="true" />
         <boolean name="force_home_network_bool" value="true" />
@@ -2547,7 +2547,7 @@
         <boolean name="ignore_rtt_mode_setting_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="230">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="editable_enhanced_4g_lte_bool" value="true" />
         <boolean name="force_home_network_bool" value="true" />
@@ -2555,7 +2555,7 @@
         <boolean name="ignore_rtt_mode_setting_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="240">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="editable_enhanced_4g_lte_bool" value="true" />
         <boolean name="force_home_network_bool" value="true" />
@@ -2563,7 +2563,7 @@
         <boolean name="ignore_rtt_mode_setting_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="250">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="editable_enhanced_4g_lte_bool" value="true" />
         <boolean name="force_home_network_bool" value="true" />
@@ -2571,7 +2571,7 @@
         <boolean name="ignore_rtt_mode_setting_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="270">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="editable_enhanced_4g_lte_bool" value="true" />
         <boolean name="force_home_network_bool" value="true" />
@@ -2583,7 +2583,7 @@
         <boolean name="force_home_network_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="310">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="rtt_auto_upgrade_bool" value="true" />
         <boolean name="rtt_upgrade_supported_bool" value="true" />
@@ -2598,7 +2598,7 @@
         <boolean name="ignore_rtt_mode_setting_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="490">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="editable_enhanced_4g_lte_bool" value="true" />
         <boolean name="force_home_network_bool" value="true" />
@@ -2606,26 +2606,26 @@
         <boolean name="ignore_rtt_mode_setting_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="530">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="force_home_network_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="580">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="590">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="force_home_network_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="640">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="force_home_network_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="660">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="editable_enhanced_4g_lte_bool" value="true" />
         <boolean name="force_home_network_bool" value="true" />
@@ -2633,7 +2633,7 @@
         <boolean name="ignore_rtt_mode_setting_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="800">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <boolean name="editable_enhanced_4g_lte_bool" value="true" />
         <boolean name="force_home_network_bool" value="true" />
@@ -2644,7 +2644,7 @@
         <boolean name="rtt_supported_bool" value="true" />
         <boolean name="rtt_upgrade_supported_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_volte_tty_supported_bool" value="true" />
     </carrier_config>
@@ -2654,7 +2654,7 @@
         <boolean name="rtt_auto_upgrade_bool" value="true" />
         <boolean name="allow_merging_rtt_calls_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_volte_tty_supported_bool" value="false" />
         <boolean name="require_apn_filtering_with_radio_capability_bool" value="true" />
@@ -2745,7 +2745,7 @@
     </carrier_config>
     <carrier_config mcc="312" mnc="670">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="true" />
         <boolean name="transmit_static_image" value="true" />
@@ -2757,7 +2757,7 @@
     </carrier_config>
     <carrier_config mcc="313" mnc="100">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="true" />
         <boolean name="transmit_static_image" value="true" />
@@ -2818,7 +2818,7 @@
     </carrier_config>
     <carrier_config mcc="313" mnc="130">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="true" />
         <boolean name="transmit_static_image" value="true" />
@@ -2830,7 +2830,7 @@
     </carrier_config>
     <carrier_config mcc="313" mnc="140">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_enable_display_14digit_imei" value="true" />
         <boolean name="transmit_static_image" value="true" />
@@ -2842,7 +2842,7 @@
     </carrier_config>
     <carrier_config mcc="313" mnc="340">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="rtt_supported_bool" value="true" />
         <boolean name="rtt_supported_while_roaming_bool" value="true" />
@@ -3018,7 +3018,7 @@
     </carrier_config>
     <carrier_config mcc="001" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="hide_ims_apn_bool" value="false" />
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
@@ -3155,7 +3155,7 @@
         <!-- Flag specifying whether WFC over IMS should be available for carrier: independent of carrier provisioning. -->
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <!-- Flag specifying whether video telephony is available for carrier. -->
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <!-- Default WFC_IMS_enabled: true VoWiFi by default is on -->
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <!-- Default mode for WFC over IMS on home network: 2: prefer Wi-Fi -->
@@ -3369,7 +3369,7 @@
     </carrier_config>
     <carrier_config mcc="460">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_5g_switch_available_bool" value="true" />
         <boolean name="carrier_sa_mode_available_bool" value="true" />
         <string-array name="carrier_metered_apn_types_strings" num="3">
@@ -3419,7 +3419,7 @@
     </carrier_config>
     <carrier_config mcc="460" nr_support_mode="1">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
         <boolean name="editable_enhanced_4g_lte_bool" value="false" />
         <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
@@ -3460,7 +3460,7 @@
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="config_callbarring_over_ims_no_need_password" value="true" />
         <boolean name="config_support_change_and_cancel_cb" value="false" />
         <boolean name="editable_enhanced_4g_lte_bool" value="false" />
@@ -3473,7 +3473,7 @@
     <carrier_config mcc="404">
         <boolean name="config_update_multiparty_state" value="false" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="disable_emulating_single_party_call_bool" value="true" />
         <boolean name="config_editable_wfc_when_calling" value="false" />
@@ -3486,7 +3486,7 @@
     <carrier_config mcc="405">
         <boolean name="config_update_multiparty_state" value="false" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="editable_wfc_mode_bool" value="true" />
         <boolean name="disable_emulating_single_party_call_bool" value="true" />
         <boolean name="config_editable_wfc_when_calling" value="false" />
@@ -6449,20 +6449,20 @@
     </carrier_config>
     <carrier_config mcc="410" mnc="01,02,03,04,05,06,07">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <!--斯里兰卡 Srilanka Dialog-->
     <carrier_config mcc="413" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
     </carrier_config>
     <!--斯里兰卡 Srilanka Mobitel-->
     <carrier_config mcc="413" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
     </carrier_config>
@@ -6707,7 +6707,7 @@
     <carrier_config mcc="206" mnc="1">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="206" mnc="20">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -6813,7 +6813,7 @@
     <carrier_config mcc="250" mnc="20">
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="250" mnc="99">
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
@@ -6824,7 +6824,7 @@
     <carrier_config mcc="255" mnc="6">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="257" mnc="1">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -6845,7 +6845,7 @@
     <carrier_config mcc="260" mnc="3">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="260" mnc="6">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -6888,17 +6888,17 @@
     </carrier_config>
     <carrier_config mcc="286" mnc="1">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="286" mnc="2">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="286" mnc="3">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="294" mnc="1">
@@ -6938,7 +6938,7 @@
     <carrier_config mcc="334" mnc="20">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="334" mnc="30">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -6954,7 +6954,7 @@
     <carrier_config mcc="400" mnc="1">
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="400" mnc="2">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -6962,7 +6962,7 @@
     </carrier_config>
     <carrier_config mcc="401" mnc="1">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="401" mnc="07,77">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -6996,11 +6996,11 @@
     </carrier_config>
     <carrier_config mcc="418" mnc="5">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="418" mnc="20">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="419" mnc="2">
         <boolean name="carrier_sa_mode_available_bool" value="true" />
@@ -7037,7 +7037,7 @@
     <carrier_config mcc="425" mnc="1">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="425" mnc="2">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -7054,7 +7054,7 @@
     <carrier_config mcc="425" mnc="10">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="426" mnc="1">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -7073,11 +7073,11 @@
     </carrier_config>
     <carrier_config mcc="434" mnc="4">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="434" mnc="5">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="452" mnc="1">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -7123,11 +7123,11 @@
     </carrier_config>
     <carrier_config mcc="502" mnc="12">
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="502" mnc="19">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="502" mnc="152">
@@ -7138,21 +7138,21 @@
     </carrier_config>
     <carrier_config mcc="510" mnc="1">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="510" mnc="10">
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="510" mnc="11">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="510" mnc="09,28">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="510" mnc="89">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="515" mnc="2">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -7162,25 +7162,25 @@
     </carrier_config>
     <carrier_config mcc="515" mnc="66">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_sa_mode_available_bool" value="true" />
         <boolean name="carrier_disable_sa_mode_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="520" mnc="00,04">
         <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_sa_mode_available_bool" value="true" />
         <boolean name="carrier_disable_sa_mode_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="520" mnc="3">
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_disable_sa_mode_bool" value="false" />
         <boolean name="carrier_sa_mode_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="520" mnc="05,18,47">
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="520" mnc="17">
@@ -7213,7 +7213,7 @@
     <carrier_config mcc="716" mnc="10">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="730" mnc="3">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -7225,7 +7225,7 @@
     <carrier_config mcc="732" mnc="101">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="732" mnc="123">
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
@@ -7236,7 +7236,7 @@
     <carrier_config mcc="732" mnc="130,360">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="901" mnc="18">
         <boolean name="carrier_volte_available_bool" value="false" />
